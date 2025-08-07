@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: com.spoiledcat.git.ui:Unity.VersionControl.Git:GitLogCache
+  cacheType: 3
+  lastUpdatedAtString: 2025-08-06T16:02:15.126+01:00
+  initializedAtString: 2025-08-06T14:53:39.221+01:00
+  log:
+  - commitID: 6b1385a391ddb4b96fd0397889543a6ae0974609
+    mergeA: 
+    mergeB: 
+    authorName: Vishnu Anil
+    authorEmail: vishnuspare15@gmail.com
+    commitEmail: vishnuspare15@gmail.com
+    commitName: Vishnu Anil
+    summary: Initial commit
+    description: 
+    timeString: 2025-08-04T08:19:44.000+01:00
+    commitTimeString: 2025-08-04T08:19:44.000+01:00
+    changes:
+    - path: .gitattributes
+      fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\.gitattributes
+      projectPath: ..\.gitattributes
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .gitignore
+      fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\.gitignore
+      projectPath: ..\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: README.md
+      fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\README.md
+      projectPath: ..\README.md
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0

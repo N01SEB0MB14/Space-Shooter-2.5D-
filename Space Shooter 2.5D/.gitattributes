@@ -1,0 +1,4 @@
+*.mp4,*.jpeg,*.png,*.gif,*.psd,*.ai,*.mp3,*.wav,*.ogg,*.mp4,*.mov,*.FBX,*.fbx,*.blend,*.obj,*.a,*.exr,*.tga,*.pdf,*.zip,*.dll,*.unitypackage,*.aif,*.ttf,*.rns,*.reason,*.lxo filter=lfs diff=lfs merge=lfs -text
+*.7z,*.dylib filter=lfs diff=lfs merge=lfs -text
+/Library/PackageCache/com.unity.burst@7a907cf5a459/.Runtime/libburst-llvm-18.dylib filter=lfs diff=lfs merge=lfs -text
+/Library/PackageCache/com.unity.toolchain.win-x86_64-linux-x86_64@426618737602/data~/payload.tar.7z filter=lfs diff=lfs merge=lfs -text
