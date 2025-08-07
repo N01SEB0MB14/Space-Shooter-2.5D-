@@ -8,9 +8,11 @@ public class Player : MonoBehaviour
     [SerializeField]
     private GameObject _laserPrefab;
     private float lastFireTime;
+    public int health = 3;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        this.tag = "Player";
         //current pos=new pos(0,0,0);
         transform.position = new Vector3(0, 0, 0);
         lastFireTime = 0;
@@ -53,5 +55,18 @@ public class Player : MonoBehaviour
                 lastFireTime = Time.time;
             }
         }
+    public void takeDamage()
+    {
+        this.health--;
+        if (this.health <= 0)
+        {
+            Destroy(gameObject);
+            Debug.Log("Player destroyed");
+        }
+        else
+        {
+            Debug.Log("Player health: " + this.health);
+        }
+    }
     }
 

@@ -7,7 +7,9 @@ public class Bullet : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        this.tag = "Laser";
+        Debug.Log("Bullet created with tag: " + this.tag);
+
     }
 
     // Update is called once per frame
