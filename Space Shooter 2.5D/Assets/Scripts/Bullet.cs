@@ -8,7 +8,6 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         this.tag = "Laser";
-        Debug.Log("Bullet created with tag: " + this.tag);
 
     }
 
@@ -17,6 +16,10 @@ public class Bullet : MonoBehaviour
     {
         if (transform.position.y > 7f)
         {
+            if(transform.parent != null)
+            {
+               Destroy(transform.parent.gameObject);
+            }
             Destroy(gameObject);
         }
         else

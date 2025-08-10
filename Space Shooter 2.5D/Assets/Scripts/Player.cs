@@ -7,7 +7,13 @@ public class Player : MonoBehaviour
     private float speed = 5;
     [SerializeField]
     private GameObject _laserPrefab;
+    [SerializeField]
+    private GameObject _Triple_shot;
+    [SerializeField]
+    public bool tripleShotActive { get; set; }
     private float lastFireTime;
+    private float tripleShotInit;
+    private bool tripleShotInitActive;
     public int health = 3;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -16,6 +22,8 @@ public class Player : MonoBehaviour
         //current pos=new pos(0,0,0);
         transform.position = new Vector3(0, 0, 0);
         lastFireTime = 0;
+        tripleShotActive = false;
+        tripleShotInitActive = false;
 
 
 
@@ -25,7 +33,7 @@ public class Player : MonoBehaviour
     void Update()
     {
         calculateMovement();
-        fireLaser(lastFireTime);
+        fireLaser(lastFireTime,tripleShotInit,tripleShotActive,tripleShotInitActive);
     }
         void calculateMovement()
         {
@@ -46,15 +54,37 @@ public class Player : MonoBehaviour
             transform.Translate(Vector3.right * horizontalInput * speed * Time.deltaTime);
             transform.Translate(Vector3.up * verticalInput * speed * Time.deltaTime);
         }
-        //spawn laser if fire key used
-        void fireLaser(float time = 0)
+    //spawn laser if fire key used
+    void fireLaser(float time = 0,float tripletime=0,bool triple=false,bool tripleInit=false)
+    {
+        if (Input.GetKey(KeyCode.Space) && ((time == 0) || (Input.GetKey(KeyCode.Space) && (Time.time - time) >= 0.25f)))
         {
-            if (Input.GetKey(KeyCode.Space) && ((time == 0) || (Input.GetKey(KeyCode.Space) && (Time.time - time) >= 0.25f)))
+            if (triple && !tripleInit)
             {
-                Instantiate(_laserPrefab, new Vector3(transform.position.x,(transform.position.y+1f),transform.position.z), Quaternion.identity);
+                Instantiate(_Triple_shot, new Vector3((transform.position.x+1f), transform.position.y, transform.position.z), Quaternion.identity);
+                tripleShotInitActive = true;
+                tripleShotInit = Time.time;
                 lastFireTime = Time.time;
             }
+            else if (triple && (Time.time - tripletime) <= 5f && (Time.time - time) >= 0.25f)
+            {
+                Debug.Log(Time.time - tripletime);
+                Instantiate(_Triple_shot, new Vector3((transform.position.x + 1f), transform.position.y, transform.position.z), Quaternion.identity);
+                lastFireTime = Time.time;
+            }
+            else
+            {
+
+                Instantiate(_laserPrefab, new Vector3(transform.position.x, (transform.position.y + 1f), transform.position.z), Quaternion.identity);
+                lastFireTime = Time.time;
+            }
+            if (triple && (Time.time - tripletime) >= 5f)
+            {
+                tripleShotActive = false;
+                tripleShotInitActive = false;
+            }
         }
+    }
     public void takeDamage()
     {
         this.health--;

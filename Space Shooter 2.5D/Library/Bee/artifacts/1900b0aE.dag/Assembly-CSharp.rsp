@@ -442,6 +442,7 @@
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/SpawnManager.cs"
+"Assets/Scripts/Triple_shot_powerup.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic
