@@ -4,13 +4,17 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField]
-    private float speed = 5;
+    private float speed;
     [SerializeField]
     private GameObject _laserPrefab;
     [SerializeField]
     private GameObject _Triple_shot;
     [SerializeField]
     public bool tripleShotActive { get; set; }
+    public bool SpeedBoostActive { get; set; }
+    public bool ShieldActive { get; set; }
+    private bool SpeedBoostInitActive;
+    private float SpeedBoostInit;
     private float lastFireTime;
     private float tripleShotInit;
     private bool tripleShotInitActive;
@@ -24,6 +28,7 @@ public class Player : MonoBehaviour
         lastFireTime = 0;
         tripleShotActive = false;
         tripleShotInitActive = false;
+        speed = 5f;
 
 
 
@@ -51,6 +56,18 @@ public class Player : MonoBehaviour
             transform.position = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y, -4.8f, 0), 0);
             float horizontalInput = Input.GetAxis("Horizontal");
             float verticalInput = Input.GetAxis("Vertical");
+            if (SpeedBoostActive && !SpeedBoostInitActive)
+            {
+                speed = 10f;
+                SpeedBoostInitActive = true;
+                SpeedBoostInit = Time.time;
+            }
+            else if (SpeedBoostActive && (Time.time - SpeedBoostInit) >= 5f)
+            {
+                speed = 5f;
+                SpeedBoostActive = false;
+                SpeedBoostInitActive = false;
+            }
             transform.Translate(Vector3.right * horizontalInput * speed * Time.deltaTime);
             transform.Translate(Vector3.up * verticalInput * speed * Time.deltaTime);
         }

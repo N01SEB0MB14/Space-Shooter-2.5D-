@@ -9,10 +9,20 @@ public class SpawnManager : MonoBehaviour
     private GameObject enemyContainer;
     [SerializeField]
     private GameObject player;
+    [SerializeField]
+    private GameObject TSPowerUpPrefab;
+    [SerializeField]
+    private GameObject PowerUpContainer;
+    [SerializeField]
+    private GameObject SpeedPowerUpPrefab;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        StartCoroutine(SpawnRoutine());
+        StartCoroutine(EnemySpawnRoutine());
+        StartCoroutine(TSPowerUpSpawnRoutine());
+        StartCoroutine(SpeedPowerUpSpawnRoutine());
+
 
     }
 
@@ -21,7 +31,7 @@ public class SpawnManager : MonoBehaviour
     {
         
     }
-    IEnumerator SpawnRoutine()
+    IEnumerator EnemySpawnRoutine()
     {
         bool spawn=true;
         while (spawn)
@@ -38,5 +48,43 @@ public class SpawnManager : MonoBehaviour
             }
             yield return new WaitForSeconds(3f); // Wait for 5 seconds before spawning the next enemy
         }
-    } 
+    }
+    IEnumerator TSPowerUpSpawnRoutine()
+    {
+        bool spawn = true;
+        while (spawn)
+        {
+            if (player == null)
+            {
+                spawn = false; //
+            }
+            else
+            {
+                GameObject powerUp = Instantiate(TSPowerUpPrefab, new Vector3(Random.Range(-10f, 10f), 6, 0), Quaternion.identity);
+                powerUp.transform.parent = PowerUpContainer.transform; // Set the parent of the power-up to the enemyContainer
+              
+            }
+
+            yield return new WaitForSeconds(Random.Range(3f, 8f)); // Wait for a random time between 3 and 8 seconds
+        }
+    }
+    IEnumerator SpeedPowerUpSpawnRoutine()
+    {
+        bool spawn = true;
+        while (spawn)
+        {
+            if (player == null)
+            {
+                spawn = false; //
+            }
+            else
+            {
+                GameObject powerUp = Instantiate(SpeedPowerUpPrefab, new Vector3(Random.Range(-10f, 10f), 6, 0), Quaternion.identity);
+                powerUp.transform.parent = PowerUpContainer.transform; // Set the parent of the power-up to the enemyContainer
+
+            }
+
+            yield return new WaitForSeconds(Random.Range(3f, 8f)); // Wait for a random time between 3 and 8 seconds
+        }
+    }
 }
