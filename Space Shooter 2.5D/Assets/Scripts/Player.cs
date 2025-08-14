@@ -1,4 +1,5 @@
 using System;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -10,13 +11,16 @@ public class Player : MonoBehaviour
     [SerializeField]
     private GameObject _Triple_shot;
     [SerializeField]
+    private GameObject _ShieldPrefab;
     public bool tripleShotActive { get; set; }
     public bool SpeedBoostActive { get; set; }
     public bool ShieldActive { get; set; }
+    public float Shieldinit { get; set; }
     private bool SpeedBoostInitActive;
-    private float SpeedBoostInit;
+    public float SpeedBoostInit { get; set; }
     private float lastFireTime;
-    private float tripleShotInit;
+    private bool spawnshield;
+    public float tripleShotInit { get; set; }
     private bool tripleShotInitActive;
     public int health = 3;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -28,6 +32,7 @@ public class Player : MonoBehaviour
         lastFireTime = 0;
         tripleShotActive = false;
         tripleShotInitActive = false;
+        spawnshield = false;
         speed = 5f;
 
 
@@ -39,6 +44,22 @@ public class Player : MonoBehaviour
     {
         calculateMovement();
         fireLaser(lastFireTime,tripleShotInit,tripleShotActive,tripleShotInitActive);
+        shield();
+    }
+    void shield()
+    {
+        if(ShieldActive&& !spawnshield)
+        {
+            spawnshield = true;
+            Instantiate(_ShieldPrefab, transform.position, Quaternion.identity);
+        }
+        else if (ShieldActive && (Time.time - Shieldinit) >= 5f)
+        {
+            ShieldActive = false;
+            spawnshield = false;
+            Destroy(GameObject.FindGameObjectWithTag("Shield"));
+        }
+
     }
         void calculateMovement()
         {
@@ -60,7 +81,6 @@ public class Player : MonoBehaviour
             {
                 speed = 10f;
                 SpeedBoostInitActive = true;
-                SpeedBoostInit = Time.time;
             }
             else if (SpeedBoostActive && (Time.time - SpeedBoostInit) >= 5f)
             {
@@ -80,12 +100,10 @@ public class Player : MonoBehaviour
             {
                 Instantiate(_Triple_shot, new Vector3((transform.position.x+1f), transform.position.y, transform.position.z), Quaternion.identity);
                 tripleShotInitActive = true;
-                tripleShotInit = Time.time;
                 lastFireTime = Time.time;
             }
             else if (triple && (Time.time - tripletime) <= 5f && (Time.time - time) >= 0.25f)
             {
-                Debug.Log(Time.time - tripletime);
                 Instantiate(_Triple_shot, new Vector3((transform.position.x + 1f), transform.position.y, transform.position.z), Quaternion.identity);
                 lastFireTime = Time.time;
             }
@@ -97,6 +115,7 @@ public class Player : MonoBehaviour
             }
             if (triple && (Time.time - tripletime) >= 5f)
             {
+                Debug.Log(Time.time-tripletime);
                 tripleShotActive = false;
                 tripleShotInitActive = false;
             }

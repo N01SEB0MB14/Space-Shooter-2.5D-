@@ -13,12 +13,12 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(transform.position.y <= -6)
+        if (transform.position.y <= -6)
         {
             // Reset enemy position to the top of the screen
             transform.position = new Vector3(Random.Range(-10f, 10f), 6, 0);
         }
-        transform.Translate(Vector3.down * 4 * Time.deltaTime); 
+        transform.Translate(Vector3.down * 4 * Time.deltaTime);
 
 
     }
@@ -27,13 +27,23 @@ public class Enemy : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Player player = other.transform.GetComponent<Player>();
-            if (player != null)
+            if (player != null && !player.ShieldActive)
             {
                 // Handle collision with player
                 Debug.Log("Enemy collided with Player!");
                 Destroy(gameObject);
                 player.takeDamage(); // Assuming takeDamage method exists in Player script
             }
+            else if (player != null && player.ShieldActive)
+            {
+                // Handle collision with player when shield is active
+                Debug.Log("Enemy collided with Player but shield is active!");
+                Destroy(gameObject); // Destroy the enemy
+                player.ShieldActive = false; // Deactivate shield
+                Destroy(GameObject.FindGameObjectWithTag("Shield"));
+            }
+            
+
         }
         else if (other.gameObject.CompareTag("Laser"))
         {
@@ -42,6 +52,5 @@ public class Enemy : MonoBehaviour
             Destroy(other.gameObject); // Destroy the laser
             Destroy(gameObject); // Destroy the enemy
         }
-
     }
 }

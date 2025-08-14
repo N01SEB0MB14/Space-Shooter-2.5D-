@@ -37,18 +37,21 @@ public class Triple_shot_powerup : MonoBehaviour
             if (player != null && powerUpID == 1)
             {
                 player.tripleShotActive = true;
+                player.tripleShotInit=Time.time;
                 Destroy(this.gameObject);
             }
             else if (player != null && powerUpID == 2)
             {
                 player.SpeedBoostActive = true;
+                player.SpeedBoostInit = Time.time;
                 Destroy(this.gameObject);
             }
-            //else if (player != null && powerUpID == 3)
-            //{
-            //player.ShieldActive = true;
-            //Destroy(this.gameObject);
-            //}
+            else if (player != null && powerUpID == 3)
+            {
+            player.ShieldActive = true;
+            player.Shieldinit = Time.time;
+            Destroy(this.gameObject);
+            }
         }
 
 

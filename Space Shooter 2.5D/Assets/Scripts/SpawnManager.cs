@@ -15,6 +15,8 @@ public class SpawnManager : MonoBehaviour
     private GameObject PowerUpContainer;
     [SerializeField]
     private GameObject SpeedPowerUpPrefab;
+    [SerializeField]
+    private GameObject ShieldPowerUpPrefab;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,6 +24,7 @@ public class SpawnManager : MonoBehaviour
         StartCoroutine(EnemySpawnRoutine());
         StartCoroutine(TSPowerUpSpawnRoutine());
         StartCoroutine(SpeedPowerUpSpawnRoutine());
+        StartCoroutine(ShieldPowerUpSpawnRoutine());
 
 
     }
@@ -84,6 +87,24 @@ public class SpawnManager : MonoBehaviour
 
             }
 
+            yield return new WaitForSeconds(Random.Range(3f, 8f)); // Wait for a random time between 3 and 8 seconds
+        }
+    }
+    IEnumerator ShieldPowerUpSpawnRoutine()
+    {
+        bool spawn = true;
+        while (spawn)
+        {
+            if (player == null)
+            {
+                spawn = false; // Stop spawning if player is dead
+                yield break;
+            }
+            else
+            {
+                GameObject powerUp = Instantiate(ShieldPowerUpPrefab, new Vector3(Random.Range(-10f, 10f), 6, 0), Quaternion.identity);
+                powerUp.transform.parent = PowerUpContainer.transform; // Set the parent of the power-up to the enemyContainer
+            }
             yield return new WaitForSeconds(Random.Range(3f, 8f)); // Wait for a random time between 3 and 8 seconds
         }
     }
