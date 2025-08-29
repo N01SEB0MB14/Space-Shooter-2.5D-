@@ -12,6 +12,8 @@ public class Player : MonoBehaviour
     private GameObject _Triple_shot;
     [SerializeField]
     private GameObject _ShieldPrefab;
+    [SerializeField]
+    public int _score{get; set; }
     public bool tripleShotActive { get; set; }
     public bool SpeedBoostActive { get; set; }
     public bool ShieldActive { get; set; }
@@ -27,6 +29,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         this.tag = "Player";
+        this._score = 0;
         //current pos=new pos(0,0,0);
         transform.position = new Vector3(0, 0, 0);
         lastFireTime = 0;

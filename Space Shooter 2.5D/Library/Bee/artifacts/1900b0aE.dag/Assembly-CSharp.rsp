@@ -444,6 +444,7 @@
 "Assets/Scripts/Shield.cs"
 "Assets/Scripts/SpawnManager.cs"
 "Assets/Scripts/Triple_shot_powerup.cs"
+"Assets/Scripts/UIManager.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 /deterministic

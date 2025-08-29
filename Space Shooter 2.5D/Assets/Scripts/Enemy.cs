@@ -3,9 +3,12 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    [SerializeField]
+    private GameObject Player;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        Player = GameObject.FindGameObjectWithTag("Player");
         transform.position = new Vector3(0, 5, 0); // Set initial position of the enemy
 
     }
@@ -32,6 +35,7 @@ public class Enemy : MonoBehaviour
                 // Handle collision with player
                 Debug.Log("Enemy collided with Player!");
                 Destroy(gameObject);
+                player._score += 10; // Increase score
                 player.takeDamage(); // Assuming takeDamage method exists in Player script
             }
             else if (player != null && player.ShieldActive)
@@ -39,6 +43,7 @@ public class Enemy : MonoBehaviour
                 // Handle collision with player when shield is active
                 Debug.Log("Enemy collided with Player but shield is active!");
                 Destroy(gameObject); // Destroy the enemy
+                player._score += 10; // Increase score
                 player.ShieldActive = false; // Deactivate shield
                 Destroy(GameObject.FindGameObjectWithTag("Shield"));
             }
@@ -51,6 +56,7 @@ public class Enemy : MonoBehaviour
             Debug.Log("Enemy hit by Laser!");
             Destroy(other.gameObject); // Destroy the laser
             Destroy(gameObject); // Destroy the enemy
+            Player.GetComponent<Player>()._score += 10; // Increase score
         }
     }
 }
