@@ -1,10 +1,14 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
     [SerializeField]
     private GameObject Player;
+    [SerializeField]
+    private Sprite[] LiveSprites;
+    private Image _liveImage;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

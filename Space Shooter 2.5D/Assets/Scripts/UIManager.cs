@@ -7,10 +7,16 @@ public class UIManager : MonoBehaviour
     private Text scoreText;
     [SerializeField]
     private GameObject Player;
+    [SerializeField]
+    private Image livesImage;
+    [SerializeField]
+    private Sprite[] livesSprites;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        livesImage.sprite = livesSprites[3];
+
+
 
     }
 
@@ -22,4 +28,12 @@ public class UIManager : MonoBehaviour
             scoreText.text = $"Score: {Player.GetComponent<Player>()._score}";
 
     }
+    public void updateLives(int lives)
+        {
+            if (livesImage != null && livesSprites[lives]!=null)
+            {
+                livesImage.sprite = livesSprites[lives];
+        }
+    }
+    
 }

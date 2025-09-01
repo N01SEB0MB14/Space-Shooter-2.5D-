@@ -1,6 +1,7 @@
 using System;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -13,7 +14,11 @@ public class Player : MonoBehaviour
     [SerializeField]
     private GameObject _ShieldPrefab;
     [SerializeField]
-    public int _score{get; set; }
+    private GameObject UImanager;
+    [SerializeField]
+    private GameObject MyGameCanvas;
+
+    public int _score { get; set; }
     public bool tripleShotActive { get; set; }
     public bool SpeedBoostActive { get; set; }
     public bool ShieldActive { get; set; }
@@ -24,7 +29,7 @@ public class Player : MonoBehaviour
     private bool spawnshield;
     public float tripleShotInit { get; set; }
     private bool tripleShotInitActive;
-    public int health = 3;
+    public int health { get; set; } = 3;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -129,13 +134,16 @@ public class Player : MonoBehaviour
         this.health--;
         if (this.health <= 0)
         {
+            MyGameCanvas.GetComponent<MyGameCanvas>().ShowGameOver();
             Destroy(gameObject);
             Debug.Log("Player destroyed");
+
         }
         else
         {
             Debug.Log("Player health: " + this.health);
         }
+        UImanager.GetComponent<UIManager>().updateLives(this.health);
     }
     }
 
