@@ -136,6 +136,7 @@ public class Player : MonoBehaviour
         {
             MyGameCanvas.GetComponent<MyGameCanvas>().ShowGameOver();
             Destroy(gameObject);
+            GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>().GameOver();
             Debug.Log("Player destroyed");
 
         }

@@ -5,8 +5,11 @@ public class MyGameCanvas : MonoBehaviour
 {
     [SerializeField]
     private Text GameOverText;
+    [SerializeField]
+    private Text RestartText;
     bool flicker;
     private GameObject GameOver;
+    private GameObject Restart;
     private float currentTime;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -19,24 +22,21 @@ public class MyGameCanvas : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameOver != null && !flicker&&((Time.time - currentTime) >= 0.5f||currentTime==0))
+        if (GameOver != null && Restart!=null && !flicker&&((Time.time - currentTime) >= 0.5f||currentTime==0))
         {
             GameOver.SetActive(false);
+            Restart.SetActive(false);
             flicker = true;
             currentTime = Time.time;
-            Debug.Log("Flicker");
         }
-        else if (GameOver != null && flicker &&(Time.time -currentTime)>=0.5f)
+        else if (GameOver != null && Restart != null && flicker &&(Time.time -currentTime)>=0.5f)
         {
             GameOver.SetActive(true);
+            Restart.SetActive(true);
             flicker = false;
-            Debug.Log("Return");
             currentTime = Time.time;
         }
-        else
-        {
-            Debug.Log(currentTime-Time.time);
-        }
+        
 
 
         }
@@ -45,9 +45,13 @@ public class MyGameCanvas : MonoBehaviour
         if (GameOverText != null)
         {
             Instantiate(GameOverText, new Vector3(0,0, 0), Quaternion.identity);
+            Instantiate(RestartText, new Vector3(0, 0, 0), Quaternion.identity);
             GameOver = GameObject.FindGameObjectWithTag("Game Over");
+            Restart = GameObject.FindGameObjectWithTag("Restart");
             GameOver.transform.SetParent(this.transform, true);
-            GameOver.transform.position = new Vector3(444.5f, 224.9719f, 0);
+            Restart.transform.SetParent(this.transform, true);
+            GameOver.transform.position = new Vector3(444.5f, 264.9719f, 0);
+            Restart.transform.position = new Vector3(444.5f, 224.9719f, 0);
         }
     }
 }

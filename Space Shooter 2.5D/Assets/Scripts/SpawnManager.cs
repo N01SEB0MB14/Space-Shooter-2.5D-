@@ -108,4 +108,5 @@ public class SpawnManager : MonoBehaviour
             yield return new WaitForSeconds(Random.Range(3f, 8f)); // Wait for a random time between 3 and 8 seconds
         }
     }
+    
 }

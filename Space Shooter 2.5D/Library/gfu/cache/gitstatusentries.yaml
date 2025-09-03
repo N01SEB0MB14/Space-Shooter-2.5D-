@@ -13,60 +13,96 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: com.spoiledcat.git.ui:Unity.VersionControl.Git:GitStatusCache
   cacheType: 6
-  lastUpdatedAtString: 2025-09-01T12:05:46.832+01:00
-  initializedAtString: 2025-09-01T10:49:10.639+01:00
+  lastUpdatedAtString: 2025-09-03T09:33:02.197+01:00
+  initializedAtString: 2025-09-03T09:27:32.498+01:00
   entries:
-  - path: Space Shooter 2.5D\Assets\Prefabs\Enemy.prefab
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Prefabs\Enemy.prefab
-    projectPath: Assets\Prefabs\Enemy.prefab
+  - path: Space Shooter 2.5D\Assets\MainMenu.unity
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\MainMenu.unity
+    projectPath: Assets\MainMenu.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Assets\MainMenu.unity.meta
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\MainMenu.unity.meta
+    projectPath: Assets\MainMenu.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Assets\Prefabs\Restart_text.prefab
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Prefabs\Restart_text.prefab
+    projectPath: Assets\Prefabs\Restart_text.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Assets\Prefabs\Restart_text.prefab.meta
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Prefabs\Restart_text.prefab.meta
+    projectPath: Assets\Prefabs\Restart_text.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Assets\Scenes\SampleScene.unity
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Space Shooter 2.5D\Assets\Prefabs\Game_Over_Text.prefab
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Prefabs\Game_Over_Text.prefab
-    projectPath: Assets\Prefabs\Game_Over_Text.prefab
+    workTreeStatus: 5
+  - path: Space Shooter 2.5D\Assets\Scenes\SampleScene.unity.meta
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scenes\SampleScene.unity.meta
+    projectPath: Assets\Scenes\SampleScene.unity.meta
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Space Shooter 2.5D\Assets\Prefabs\Game_Over_Text.prefab.meta
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Prefabs\Game_Over_Text.prefab.meta
-    projectPath: Assets\Prefabs\Game_Over_Text.prefab.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Space Shooter 2.5D\Assets\Scenes\Scene1.unity
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scenes\Scene1.unity
     projectPath: Assets\Scenes\Scene1.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Space Shooter 2.5D\Assets\Scripts\Enemy.cs
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scripts\Enemy.cs
-    projectPath: Assets\Scripts\Enemy.cs
+  - path: Space Shooter 2.5D\Assets\Scripts\GameManager.cs
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scripts\GameManager.cs
+    projectPath: Assets\Scripts\GameManager.cs
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Assets\Scripts\GameManager.cs.meta
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scripts\GameManager.cs.meta
+    projectPath: Assets\Scripts\GameManager.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Assets\Scripts\MainMenu.meta
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scripts\MainMenu.meta
+    projectPath: Assets\Scripts\MainMenu.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Assets\Scripts\MainMenu\MainMenu.cs
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scripts\MainMenu\MainMenu.cs
+    projectPath: Assets\Scripts\MainMenu\MainMenu.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Assets\Scripts\MainMenu\MainMenu.cs.meta
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scripts\MainMenu\MainMenu.cs.meta
+    projectPath: Assets\Scripts\MainMenu\MainMenu.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Space Shooter 2.5D\Assets\Scripts\MyGameCanvas.cs
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scripts\MyGameCanvas.cs
     projectPath: Assets\Scripts\MyGameCanvas.cs
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Space Shooter 2.5D\Assets\Scripts\MyGameCanvas.cs.meta
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scripts\MyGameCanvas.cs.meta
-    projectPath: Assets\Scripts\MyGameCanvas.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Space Shooter 2.5D\Assets\Scripts\Player.cs
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scripts\Player.cs
     projectPath: Assets\Scripts\Player.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Space Shooter 2.5D\Assets\Scripts\UIManager.cs
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scripts\UIManager.cs
-    projectPath: Assets\Scripts\UIManager.cs
+  - path: Space Shooter 2.5D\Assets\Scripts\SpawnManager.cs
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scripts\SpawnManager.cs
+    projectPath: Assets\Scripts\SpawnManager.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -82,15 +118,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Space Shooter 2.5D\Library\Artifacts\20\20497166d90f2c5fb49d3f1c9ab0298b
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\20\20497166d90f2c5fb49d3f1c9ab0298b
-    projectPath: Library\Artifacts\20\20497166d90f2c5fb49d3f1c9ab0298b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Space Shooter 2.5D\Library\Artifacts\30\3083322e7db7014ba6741926fdb37a36
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\30\3083322e7db7014ba6741926fdb37a36
     projectPath: Library\Artifacts\30\3083322e7db7014ba6741926fdb37a36
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Space Shooter 2.5D\Library\Artifacts\4d\4d741ddaac7cef9f4efc4b897f57e6fb
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\4d\4d741ddaac7cef9f4efc4b897f57e6fb
+    projectPath: Library\Artifacts\4d\4d741ddaac7cef9f4efc4b897f57e6fb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -98,32 +134,14 @@ MonoBehaviour:
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\7c\7cfa4e821060e403ecfdb8b5fc7347b5
     projectPath: Library\Artifacts\7c\7cfa4e821060e403ecfdb8b5fc7347b5
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Space Shooter 2.5D\Library\Artifacts\98\981e3cdccdbcbd6ba2d26e4e7cd3b7e5
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\98\981e3cdccdbcbd6ba2d26e4e7cd3b7e5
-    projectPath: Library\Artifacts\98\981e3cdccdbcbd6ba2d26e4e7cd3b7e5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Space Shooter 2.5D\Library\Artifacts\9b\9bf6be7bb78dd30742016e4332214f8f
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\9b\9bf6be7bb78dd30742016e4332214f8f
-    projectPath: Library\Artifacts\9b\9bf6be7bb78dd30742016e4332214f8f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Space Shooter 2.5D\Library\Artifacts\d5\d5b315a2e9527e8d9335111d683cc945
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\d5\d5b315a2e9527e8d9335111d683cc945
-    projectPath: Library\Artifacts\d5\d5b315a2e9527e8d9335111d683cc945
-    originalPath: 
     indexStatus: 0
     workTreeStatus: 5
   - path: Space Shooter 2.5D\Library\Artifacts\ea\ea814641409d10490710653ff64fa740
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\ea\ea814641409d10490710653ff64fa740
     projectPath: Library\Artifacts\ea\ea814641409d10490710653ff64fa740
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Space Shooter 2.5D\Library\Bee\1900b0aE.dag
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Bee\1900b0aE.dag
     projectPath: Library\Bee\1900b0aE.dag
@@ -238,6 +256,36 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Space Shooter 2.5D\Library\BuildProfiles\PlatformProfile.0d2129357eac403d8b359c2dcbf82502.asset
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\BuildProfiles\PlatformProfile.0d2129357eac403d8b359c2dcbf82502.asset
+    projectPath: Library\BuildProfiles\PlatformProfile.0d2129357eac403d8b359c2dcbf82502.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Space Shooter 2.5D\Library\BuildProfiles\PlatformProfile.4e3c793746204150860bf175a9a41a05.asset
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\BuildProfiles\PlatformProfile.4e3c793746204150860bf175a9a41a05.asset
+    projectPath: Library\BuildProfiles\PlatformProfile.4e3c793746204150860bf175a9a41a05.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Space Shooter 2.5D\Library\BuildProfiles\PlatformProfile.8d1e1bca926649cba89d37a4c66e8b3d.asset
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\BuildProfiles\PlatformProfile.8d1e1bca926649cba89d37a4c66e8b3d.asset
+    projectPath: Library\BuildProfiles\PlatformProfile.8d1e1bca926649cba89d37a4c66e8b3d.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Space Shooter 2.5D\Library\BuildProfiles\PlatformProfile.cb423bfea44b4d658edb8bc5d91a3024.asset
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\BuildProfiles\PlatformProfile.cb423bfea44b4d658edb8bc5d91a3024.asset
+    projectPath: Library\BuildProfiles\PlatformProfile.cb423bfea44b4d658edb8bc5d91a3024.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Space Shooter 2.5D\Library\BuildProfiles\SharedProfile.asset
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\BuildProfiles\SharedProfile.asset
+    projectPath: Library\BuildProfiles\SharedProfile.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Space Shooter 2.5D\Library\BurstCache\JIT\Hashes\a110ffe6b760e4b56cb86ae44bc7857d.bhc
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\BurstCache\JIT\Hashes\a110ffe6b760e4b56cb86ae44bc7857d.bhc
     projectPath: Library\BurstCache\JIT\Hashes\a110ffe6b760e4b56cb86ae44bc7857d.bhc
@@ -256,6 +304,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\EditorUserBuildSettings.asset
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Space Shooter 2.5D\Library\gfu\cache\branches.yaml
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
@@ -301,6 +355,12 @@ MonoBehaviour:
   - path: Space Shooter 2.5D\Library\InspectorExpandedItems.asset
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\InspectorExpandedItems.asset
     projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Space Shooter 2.5D\Library\LastSceneManagerSetup.txt
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -358,15 +418,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Space Shooter 2.5D\Library\StateCache\PrefabStageHierarchy\08\08c0e7a8bfd8e4cd77a15555484b1228.json
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\StateCache\PrefabStageHierarchy\08\08c0e7a8bfd8e4cd77a15555484b1228.json
-    projectPath: Library\StateCache\PrefabStageHierarchy\08\08c0e7a8bfd8e4cd77a15555484b1228.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Space Shooter 2.5D\Library\StateCache\SceneView\3e\3e35ad638c9979814e1252ffa02018e4.json
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\StateCache\SceneView\3e\3e35ad638c9979814e1252ffa02018e4.json
-    projectPath: Library\StateCache\SceneView\3e\3e35ad638c9979814e1252ffa02018e4.json
+  - path: Space Shooter 2.5D\Library\StateCache\PrefabStageHierarchy\c7\c7272e24ee4fad8fb79777ad539204c0.json
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\StateCache\PrefabStageHierarchy\c7\c7272e24ee4fad8fb79777ad539204c0.json
+    projectPath: Library\StateCache\PrefabStageHierarchy\c7\c7272e24ee4fad8fb79777ad539204c0.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -376,6 +430,18 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Space Shooter 2.5D\Library\StateCache\SceneView\97\9700208b313252605094ca2b6811777a.json
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\StateCache\SceneView\97\9700208b313252605094ca2b6811777a.json
+    projectPath: Library\StateCache\SceneView\97\9700208b313252605094ca2b6811777a.json
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\UIElements\EditorWindows\UnityEditor.Build.Profile.BuildProfileWindow.pref
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\UIElements\EditorWindows\UnityEditor.Build.Profile.BuildProfileWindow.pref
+    projectPath: Library\UIElements\EditorWindows\UnityEditor.Build.Profile.BuildProfileWindow.pref
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Space Shooter 2.5D\Library\UIElements\EditorWindows\UnityEditor.InspectorWindow.pref
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\UIElements\EditorWindows\UnityEditor.InspectorWindow.pref
     projectPath: Library\UIElements\EditorWindows\UnityEditor.InspectorWindow.pref
@@ -394,27 +460,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Space Shooter 2.5D\ProjectSettings\EditorBuildSettings.asset
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Space Shooter 2.5D\ProjectSettings\TagManager.asset
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\ProjectSettings\TagManager.asset
+    projectPath: ProjectSettings\TagManager.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Space Shooter 2.5D\Temp\__Backupscenes\0.backup
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Temp\__Backupscenes\0.backup
     projectPath: Temp\__Backupscenes\0.backup
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Temp\FSTimeGet-0fcf2ff9e3a7f0a4a82a76ad25a0550d
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Temp\FSTimeGet-0fcf2ff9e3a7f0a4a82a76ad25a0550d
-    projectPath: Temp\FSTimeGet-0fcf2ff9e3a7f0a4a82a76ad25a0550d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Space Shooter 2.5D\Temp\FSTimeGet-8ad268d6865cf2e42bd0668174ea5523
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Temp\FSTimeGet-8ad268d6865cf2e42bd0668174ea5523
-    projectPath: Temp\FSTimeGet-8ad268d6865cf2e42bd0668174ea5523
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Space Shooter 2.5D\Temp\FSTimeGet-9aced62817000934e8741d4b0e320d01
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Temp\FSTimeGet-9aced62817000934e8741d4b0e320d01
-    projectPath: Temp\FSTimeGet-9aced62817000934e8741d4b0e320d01
+  - path: Space Shooter 2.5D\Temp\FSTimeGet-3cd1450c8ab9d134984b818605c4a89b
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Temp\FSTimeGet-3cd1450c8ab9d134984b818605c4a89b
+    projectPath: Temp\FSTimeGet-3cd1450c8ab9d134984b818605c4a89b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -430,9 +496,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
-    projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+  - path: Space Shooter 2.5D\UserSettings\EditorUserSettings.asset
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\UserSettings\EditorUserSettings.asset
+    projectPath: UserSettings\EditorUserSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

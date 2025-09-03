@@ -440,6 +440,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/Enemy.cs"
+"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/MainMenu/MainMenu.cs"
 "Assets/Scripts/MyGameCanvas.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/Shield.cs"

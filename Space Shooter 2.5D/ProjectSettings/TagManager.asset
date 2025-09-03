@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Laser
   - Shield
+  - Game Over
+  - Restart
+  - GameManager
   layers:
   - Default
   - TransparentFX
