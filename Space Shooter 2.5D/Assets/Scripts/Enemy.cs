@@ -9,11 +9,32 @@ public class Enemy : MonoBehaviour
     [SerializeField]
     private Sprite[] LiveSprites;
     private Image _liveImage;
+    private Animator _anim;
+    private BoxCollider2D _boxCollider;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player");
-        transform.position = new Vector3(0, 5, 0); // Set initial position of the enemy
+        if (Player == null)
+        {
+            Debug.LogError("Player object not found in the scene. Make sure the Player has the 'Player' tag assigned.");
+        }
+        else
+        {
+            transform.position = new Vector3(0, 5, 0); // Set initial position of the enemy
+            _anim = this.GetComponent<Animator>();
+            _boxCollider = this.GetComponent<BoxCollider2D>();
+            if (_anim == null)
+            {
+                Debug.LogError("Animator component not found on the enemy object.");
+            }else if(_boxCollider == null)
+            {
+                Debug.LogError("BoxCollider2D component not found on the enemy object.");
+            }
+            else {
+                Debug.Log("Animator and BoxCollider2D component found on the enemy object.");
+            }
+        }
 
     }
 
@@ -38,18 +59,24 @@ public class Enemy : MonoBehaviour
             {
                 // Handle collision with player
                 Debug.Log("Enemy collided with Player!");
-                Destroy(gameObject);
+                _anim.SetTrigger("Enemy death");
+                _boxCollider.enabled = false;
+                Destroy(gameObject,2.4f);
                 player._score += 10; // Increase score
-                player.takeDamage(); // Assuming takeDamage method exists in Player script
+                player.takeDamage();// Assuming takeDamage method exists in Player script
+         
             }
             else if (player != null && player.ShieldActive)
             {
                 // Handle collision with player when shield is active
                 Debug.Log("Enemy collided with Player but shield is active!");
-                Destroy(gameObject); // Destroy the enemy
+                _anim.SetTrigger("Enemy death");
+                _boxCollider.enabled = false;
+                Destroy(gameObject, 2.4f); // Destroy the enemy
                 player._score += 10; // Increase score
                 player.ShieldActive = false; // Deactivate shield
                 Destroy(GameObject.FindGameObjectWithTag("Shield"));
+                
             }
             
 
@@ -59,7 +86,9 @@ public class Enemy : MonoBehaviour
             // Handle collision with laser
             Debug.Log("Enemy hit by Laser!");
             Destroy(other.gameObject); // Destroy the laser
-            Destroy(gameObject); // Destroy the enemy
+            _anim.SetTrigger("Enemy death");
+            _boxCollider.enabled = false;
+            Destroy(gameObject,2.4f); // Destroy the enemy
             Player.GetComponent<Player>()._score += 10; // Increase score
         }
     }

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: com.spoiledcat.git.ui:Unity.VersionControl.Git:RepositoryInfoCache
   cacheType: 1
-  lastUpdatedAtString: 2025-09-03T09:27:32.076+01:00
-  initializedAtString: 2025-09-03T09:27:32.076+01:00
+  lastUpdatedAtString: 2025-09-23T12:03:18.903+01:00
+  initializedAtString: 2025-09-23T11:46:28.957+01:00
   currentGitRemote:
     name: origin
     url: https://github.com/N01SEB0MB14/Space-Shooter-2.5D-
@@ -35,4 +35,4 @@ MonoBehaviour:
   currentConfigRemote:
     name: origin
     url: https://github.com/N01SEB0MB14/Space-Shooter-2.5D-
-  currentHead: b65cd568
+  currentHead: f157f68d
