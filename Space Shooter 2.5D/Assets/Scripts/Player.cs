@@ -17,6 +17,15 @@ public class Player : MonoBehaviour
     private GameObject UImanager;
     [SerializeField]
     private GameObject MyGameCanvas;
+    [SerializeField]
+    private GameObject LeftEngine;
+    [SerializeField]
+    private GameObject RightEngine;
+    [SerializeField]
+    private GameObject Thruster;
+    private GameObject[]Engines;
+    public GameObject Shield;
+    private Animator _anim;
 
     public int _score { get; set; }
     public bool tripleShotActive { get; set; }
@@ -27,12 +36,15 @@ public class Player : MonoBehaviour
     public float SpeedBoostInit { get; set; }
     private float lastFireTime;
     private bool spawnshield;
+    private bool shieldExists;
     public float tripleShotInit { get; set; }
     private bool tripleShotInitActive;
     public int health { get; set; } = 3;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        Engines = new GameObject[] { LeftEngine, RightEngine };
+        _anim = this.GetComponent<Animator>();
         this.tag = "Player";
         this._score = 0;
         //current pos=new pos(0,0,0);
@@ -41,6 +53,7 @@ public class Player : MonoBehaviour
         tripleShotActive = false;
         tripleShotInitActive = false;
         spawnshield = false;
+        shieldExists = false;
         speed = 5f;
 
 
@@ -56,20 +69,35 @@ public class Player : MonoBehaviour
     }
     void shield()
     {
-        if(ShieldActive&& !spawnshield)
+        if (ShieldActive)
         {
-            spawnshield = true;
-            Instantiate(_ShieldPrefab, transform.position, Quaternion.identity);
-        }
-        else if (ShieldActive && (Time.time - Shieldinit) >= 5f)
-        {
-            ShieldActive = false;
-            spawnshield = false;
-            Destroy(GameObject.FindGameObjectWithTag("Shield"));
-        }
+            // Create shield if it doesn't exist or is inactive
+            if (Shield == null || !Shield.activeInHierarchy)
+            {
+                if (Shield == null)
+                {
+                    Shield = Instantiate(_ShieldPrefab, transform.position, Quaternion.identity);
+                    Shield.transform.parent = transform; // Make it follow the player
+                }
+                else
+                {
+                    Shield.SetActive(true);
+                    Shield.transform.position = transform.position; // Reset position
+                }
+            }
 
+            // Check if shield duration has expired
+            if ((Time.time - Shieldinit) >= 5f)
+            {
+                ShieldActive = false;
+                if (Shield != null)
+                {
+                    Shield.SetActive(false);
+                }
+            }
+        }
     }
-        void calculateMovement()
+    void calculateMovement()
         {
             if (transform.position.x >= 12)
             {
@@ -135,7 +163,11 @@ public class Player : MonoBehaviour
         if (this.health <= 0)
         {
             MyGameCanvas.GetComponent<MyGameCanvas>().ShowGameOver();
-            Destroy(gameObject);
+            _anim.SetTrigger("Death");
+            Destroy(LeftEngine);
+            Destroy(RightEngine);
+            Destroy(Thruster);
+            Destroy(gameObject,2.4f);
             GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>().GameOver();
             Debug.Log("Player destroyed");
 
@@ -143,6 +175,15 @@ public class Player : MonoBehaviour
         else
         {
             Debug.Log("Player health: " + this.health);
+            if (this.health == 2)
+            {
+                Engines[0].SetActive(true);
+            }
+            else if (this.health == 1)
+            {
+                Engines[1].SetActive(true);
+            }
+
         }
         UImanager.GetComponent<UIManager>().updateLives(this.health);
     }

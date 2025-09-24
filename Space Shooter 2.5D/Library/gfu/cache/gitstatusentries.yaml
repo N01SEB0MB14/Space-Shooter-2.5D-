@@ -13,120 +13,126 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: com.spoiledcat.git.ui:Unity.VersionControl.Git:GitStatusCache
   cacheType: 6
-  lastUpdatedAtString: 2025-09-23T12:32:09.888+01:00
-  initializedAtString: 2025-09-23T11:46:29.355+01:00
+  lastUpdatedAtString: 2025-09-24T18:52:56.777+01:00
+  initializedAtString: 2025-09-24T17:47:20.101+01:00
   entries:
-  - path: Space Shooter 2.5D\Assets\Animations\Asteroid.controller
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Asteroid.controller
-    projectPath: Assets\Animations\Asteroid.controller
+  - path: Space Shooter 2.5D\Assets\Animations\Damage.anim
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Damage.anim
+    projectPath: Assets\Animations\Damage.anim
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Assets\Animations\Asteroid.controller.meta
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Asteroid.controller.meta
-    projectPath: Assets\Animations\Asteroid.controller.meta
+  - path: Space Shooter 2.5D\Assets\Animations\Damage.anim.meta
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Damage.anim.meta
+    projectPath: Assets\Animations\Damage.anim.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Assets\Animations\Asteroid_explosion.anim
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Asteroid_explosion.anim
-    projectPath: Assets\Animations\Asteroid_explosion.anim
+  - path: Space Shooter 2.5D\Assets\Animations\Left engine.controller
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Left
+      engine.controller
+    projectPath: Assets\Animations\Left engine.controller
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Assets\Animations\Asteroid_explosion.anim.meta
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Asteroid_explosion.anim.meta
-    projectPath: Assets\Animations\Asteroid_explosion.anim.meta
+  - path: Space Shooter 2.5D\Assets\Animations\Left engine.controller.meta
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Left
+      engine.controller.meta
+    projectPath: Assets\Animations\Left engine.controller.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Assets\Animations\Enemy.controller
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Enemy.controller
-    projectPath: Assets\Animations\Enemy.controller
+  - path: Space Shooter 2.5D\Assets\Animations\Player.controller
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Player.controller
+    projectPath: Assets\Animations\Player.controller
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Assets\Animations\Enemy.controller.meta
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Enemy.controller.meta
-    projectPath: Assets\Animations\Enemy.controller.meta
+  - path: Space Shooter 2.5D\Assets\Animations\Player.controller.meta
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Player.controller.meta
+    projectPath: Assets\Animations\Player.controller.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Assets\Animations\Enemy_explosion.anim
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Enemy_explosion.anim
-    projectPath: Assets\Animations\Enemy_explosion.anim
+  - path: Space Shooter 2.5D\Assets\Animations\Player_Death.anim
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Player_Death.anim
+    projectPath: Assets\Animations\Player_Death.anim
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Assets\Animations\Enemy_explosion.anim.meta
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Enemy_explosion.anim.meta
-    projectPath: Assets\Animations\Enemy_explosion.anim.meta
+  - path: Space Shooter 2.5D\Assets\Animations\Player_Death.anim.meta
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Player_Death.anim.meta
+    projectPath: Assets\Animations\Player_Death.anim.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Assets\MainMenu.unity
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\MainMenu.unity
-    projectPath: Assets\MainMenu.unity
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Space Shooter 2.5D\Assets\MainMenu.unity.meta
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\MainMenu.unity.meta
-    projectPath: Assets\MainMenu.unity.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Space Shooter 2.5D\Assets\Prefabs\Asteroid.prefab
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Prefabs\Asteroid.prefab
-    projectPath: Assets\Prefabs\Asteroid.prefab
+  - path: Space Shooter 2.5D\Assets\Animations\Right engine damage.controller
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Right
+      engine damage.controller
+    projectPath: Assets\Animations\Right engine damage.controller
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Assets\Prefabs\Asteroid.prefab.meta
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Prefabs\Asteroid.prefab.meta
-    projectPath: Assets\Prefabs\Asteroid.prefab.meta
+  - path: Space Shooter 2.5D\Assets\Animations\Right engine damage.controller.meta
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Right
+      engine damage.controller.meta
+    projectPath: Assets\Animations\Right engine damage.controller.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Assets\Prefabs\Enemy.prefab
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Prefabs\Enemy.prefab
-    projectPath: Assets\Prefabs\Enemy.prefab
+  - path: Space Shooter 2.5D\Assets\Animations\Thruster 1.controller
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Thruster
+      1.controller
+    projectPath: Assets\Animations\Thruster 1.controller
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Assets\Animations\Thruster 1.controller.meta
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Thruster
+      1.controller.meta
+    projectPath: Assets\Animations\Thruster 1.controller.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Assets\Animations\Thruster.anim
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Thruster.anim
+    projectPath: Assets\Animations\Thruster.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Assets\Animations\Thruster.anim.meta
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Thruster.anim.meta
+    projectPath: Assets\Animations\Thruster.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Assets\Animations\Thruster.controller
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Thruster.controller
+    projectPath: Assets\Animations\Thruster.controller
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Assets\Animations\Thruster.controller.meta
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Animations\Thruster.controller.meta
+    projectPath: Assets\Animations\Thruster.controller.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Assets\Scenes\Scene1.unity
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scenes\Scene1.unity
+    projectPath: Assets\Scenes\Scene1.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Space Shooter 2.5D\Assets\Prefabs\Triple_shot.prefab
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Prefabs\Triple_shot.prefab
-    projectPath: Assets\Prefabs\Triple_shot.prefab
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Space Shooter 2.5D\Assets\Scenes\MainMenu.unity
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scenes\MainMenu.unity
-    projectPath: Assets\Scenes\MainMenu.unity
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Space Shooter 2.5D\Assets\Scenes\MainMenu.unity.meta
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scenes\MainMenu.unity.meta
-    projectPath: Assets\Scenes\MainMenu.unity.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Space Shooter 2.5D\Assets\Scripts\Asteroid.cs
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scripts\Asteroid.cs
-    projectPath: Assets\Scripts\Asteroid.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Space Shooter 2.5D\Assets\Scripts\Asteroid.cs.meta
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scripts\Asteroid.cs.meta
-    projectPath: Assets\Scripts\Asteroid.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Space Shooter 2.5D\Assets\Scripts\Enemy.cs
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scripts\Enemy.cs
     projectPath: Assets\Scripts\Enemy.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Space Shooter 2.5D\Assets\Scripts\Player.cs
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Assets\Scripts\Player.cs
+    projectPath: Assets\Scripts\Player.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -148,126 +154,456 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Space Shooter 2.5D\Library\Artifacts\02\02a79c38bd5ae5fdcba8cd8e8c6dc643
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\02\02a79c38bd5ae5fdcba8cd8e8c6dc643
-    projectPath: Library\Artifacts\02\02a79c38bd5ae5fdcba8cd8e8c6dc643
+  - path: Space Shooter 2.5D\Library\Artifacts\05\05c5a3fb4089c13fa3c04a254b2456b9
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\05\05c5a3fb4089c13fa3c04a254b2456b9
+    projectPath: Library\Artifacts\05\05c5a3fb4089c13fa3c04a254b2456b9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Library\Artifacts\0b\0b9d64f1a7c5814cbf77d1ce46c8a1de
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\0b\0b9d64f1a7c5814cbf77d1ce46c8a1de
-    projectPath: Library\Artifacts\0b\0b9d64f1a7c5814cbf77d1ce46c8a1de
+  - path: Space Shooter 2.5D\Library\Artifacts\07\077526db36652866762cc173be5d64ee
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\07\077526db36652866762cc173be5d64ee
+    projectPath: Library\Artifacts\07\077526db36652866762cc173be5d64ee
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Library\Artifacts\16\165c53d3e628f71aab11a29c222a9b0a
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\16\165c53d3e628f71aab11a29c222a9b0a
-    projectPath: Library\Artifacts\16\165c53d3e628f71aab11a29c222a9b0a
+  - path: Space Shooter 2.5D\Library\Artifacts\0b\0b7255d248444ed21b00f097f356fc1e
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\0b\0b7255d248444ed21b00f097f356fc1e
+    projectPath: Library\Artifacts\0b\0b7255d248444ed21b00f097f356fc1e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Library\Artifacts\28\28eb007a559f46ba1c8b1ca84ef2a66b
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\28\28eb007a559f46ba1c8b1ca84ef2a66b
-    projectPath: Library\Artifacts\28\28eb007a559f46ba1c8b1ca84ef2a66b
+  - path: Space Shooter 2.5D\Library\Artifacts\10\105b095e35c2c91ddb8690808f2f29d3
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\10\105b095e35c2c91ddb8690808f2f29d3
+    projectPath: Library\Artifacts\10\105b095e35c2c91ddb8690808f2f29d3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Library\Artifacts\4a\4a98d585f1f2829ce01cc9cb674b824d
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\4a\4a98d585f1f2829ce01cc9cb674b824d
-    projectPath: Library\Artifacts\4a\4a98d585f1f2829ce01cc9cb674b824d
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Space Shooter 2.5D\Library\Artifacts\8c\8c772c01a68f5b47220a7d7eb3894f2b
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\8c\8c772c01a68f5b47220a7d7eb3894f2b
-    projectPath: Library\Artifacts\8c\8c772c01a68f5b47220a7d7eb3894f2b
+  - path: Space Shooter 2.5D\Library\Artifacts\18\18cf3d72b5ef5f779d287665de69ed5a
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\18\18cf3d72b5ef5f779d287665de69ed5a
+    projectPath: Library\Artifacts\18\18cf3d72b5ef5f779d287665de69ed5a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Library\Artifacts\9b\9bf6be7bb78dd30742016e4332214f8f
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\9b\9bf6be7bb78dd30742016e4332214f8f
-    projectPath: Library\Artifacts\9b\9bf6be7bb78dd30742016e4332214f8f
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Space Shooter 2.5D\Library\Artifacts\a5\a50288b43d9dd56abe9b216dcaa64df0
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\a5\a50288b43d9dd56abe9b216dcaa64df0
-    projectPath: Library\Artifacts\a5\a50288b43d9dd56abe9b216dcaa64df0
+  - path: Space Shooter 2.5D\Library\Artifacts\1a\1a3b91448f04df52fa9ba1c4d77af5db
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\1a\1a3b91448f04df52fa9ba1c4d77af5db
+    projectPath: Library\Artifacts\1a\1a3b91448f04df52fa9ba1c4d77af5db
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Library\Artifacts\ac\acf13f266554155ed8eddf8adfe21705
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\ac\acf13f266554155ed8eddf8adfe21705
-    projectPath: Library\Artifacts\ac\acf13f266554155ed8eddf8adfe21705
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: Space Shooter 2.5D\Library\Artifacts\b3\b37d8e4181b4d4e326f4529bff80cdbd
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\b3\b37d8e4181b4d4e326f4529bff80cdbd
-    projectPath: Library\Artifacts\b3\b37d8e4181b4d4e326f4529bff80cdbd
+  - path: Space Shooter 2.5D\Library\Artifacts\1b\1b998e313a2a01a354b3bb2f176e4886
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\1b\1b998e313a2a01a354b3bb2f176e4886
+    projectPath: Library\Artifacts\1b\1b998e313a2a01a354b3bb2f176e4886
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Library\Artifacts\bc\bc353bef84628cff633f4078de18e415
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\bc\bc353bef84628cff633f4078de18e415
-    projectPath: Library\Artifacts\bc\bc353bef84628cff633f4078de18e415
+  - path: Space Shooter 2.5D\Library\Artifacts\21\21372cffd755e05bb40a99a11646ae75
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\21\21372cffd755e05bb40a99a11646ae75
+    projectPath: Library\Artifacts\21\21372cffd755e05bb40a99a11646ae75
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Library\Artifacts\c9\c9e784885e80d39d4d7326740dd340c4
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\c9\c9e784885e80d39d4d7326740dd340c4
-    projectPath: Library\Artifacts\c9\c9e784885e80d39d4d7326740dd340c4
+  - path: Space Shooter 2.5D\Library\Artifacts\23\23ef71b8d260c781e510843fec84df68
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\23\23ef71b8d260c781e510843fec84df68
+    projectPath: Library\Artifacts\23\23ef71b8d260c781e510843fec84df68
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Library\Artifacts\e8\e8c1a8518db5c4ed06cc2261614eccc5
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\e8\e8c1a8518db5c4ed06cc2261614eccc5
-    projectPath: Library\Artifacts\e8\e8c1a8518db5c4ed06cc2261614eccc5
+  - path: Space Shooter 2.5D\Library\Artifacts\26\2617edc2497724fcd76566b636a1fa33
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\26\2617edc2497724fcd76566b636a1fa33
+    projectPath: Library\Artifacts\26\2617edc2497724fcd76566b636a1fa33
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Library\Artifacts\f2\f2fdd542ab4788a4c04c5026dd052a60
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\f2\f2fdd542ab4788a4c04c5026dd052a60
-    projectPath: Library\Artifacts\f2\f2fdd542ab4788a4c04c5026dd052a60
+  - path: Space Shooter 2.5D\Library\Artifacts\2e\2ed2793f7821bf48ccc29eb6802ddca5
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\2e\2ed2793f7821bf48ccc29eb6802ddca5
+    projectPath: Library\Artifacts\2e\2ed2793f7821bf48ccc29eb6802ddca5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Library\Artifacts\f4\f4bcf78d0dda7fb338cf18c7acd4c205
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\f4\f4bcf78d0dda7fb338cf18c7acd4c205
-    projectPath: Library\Artifacts\f4\f4bcf78d0dda7fb338cf18c7acd4c205
+  - path: Space Shooter 2.5D\Library\Artifacts\31\311f810b01c6398b3f1edba2ff148c8e
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\31\311f810b01c6398b3f1edba2ff148c8e
+    projectPath: Library\Artifacts\31\311f810b01c6398b3f1edba2ff148c8e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Library\Bee\1900b0aE.dag
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Bee\1900b0aE.dag
-    projectPath: Library\Bee\1900b0aE.dag
+  - path: Space Shooter 2.5D\Library\Artifacts\37\375d02ebe02965d703a444646c55356b
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\37\375d02ebe02965d703a444646c55356b
+    projectPath: Library\Artifacts\37\375d02ebe02965d703a444646c55356b
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Space Shooter 2.5D\Library\Bee\1900b0aE.dag.json
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Bee\1900b0aE.dag.json
-    projectPath: Library\Bee\1900b0aE.dag.json
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\3a\3aaa6459fe3d2c47654416b878032b48
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\3a\3aaa6459fe3d2c47654416b878032b48
+    projectPath: Library\Artifacts\3a\3aaa6459fe3d2c47654416b878032b48
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Space Shooter 2.5D\Library\Bee\1900b0aE.dag.payloads
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Bee\1900b0aE.dag.payloads
-    projectPath: Library\Bee\1900b0aE.dag.payloads
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\3b\3b7a99df25682398817e5628762d8ea1
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\3b\3b7a99df25682398817e5628762d8ea1
+    projectPath: Library\Artifacts\3b\3b7a99df25682398817e5628762d8ea1
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Space Shooter 2.5D\Library\Bee\1900b0aE.dag_derived
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Bee\1900b0aE.dag_derived
-    projectPath: Library\Bee\1900b0aE.dag_derived
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\3c\3c24af5fea0d65e143accff397ac492d
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\3c\3c24af5fea0d65e143accff397ac492d
+    projectPath: Library\Artifacts\3c\3c24af5fea0d65e143accff397ac492d
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Space Shooter 2.5D\Library\Bee\1900b0aE-inputdata.json
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Bee\1900b0aE-inputdata.json
-    projectPath: Library\Bee\1900b0aE-inputdata.json
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\3c\3cb382d1388c40f6d1692ff426f74032
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\3c\3cb382d1388c40f6d1692ff426f74032
+    projectPath: Library\Artifacts\3c\3cb382d1388c40f6d1692ff426f74032
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\45\45a3c1f2ce122e53905e2fdd310c86c4
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\45\45a3c1f2ce122e53905e2fdd310c86c4
+    projectPath: Library\Artifacts\45\45a3c1f2ce122e53905e2fdd310c86c4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\4a\4a54d5f846c5a16c886eafeebe03027e
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\4a\4a54d5f846c5a16c886eafeebe03027e
+    projectPath: Library\Artifacts\4a\4a54d5f846c5a16c886eafeebe03027e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\4b\4b639efbecdc8595d3387886d1bba3a6
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\4b\4b639efbecdc8595d3387886d1bba3a6
+    projectPath: Library\Artifacts\4b\4b639efbecdc8595d3387886d1bba3a6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\51\512788a186980a37b230098b0c40e762
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\51\512788a186980a37b230098b0c40e762
+    projectPath: Library\Artifacts\51\512788a186980a37b230098b0c40e762
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\51\516700681b7af1a47bc44e07e5978d23
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\51\516700681b7af1a47bc44e07e5978d23
+    projectPath: Library\Artifacts\51\516700681b7af1a47bc44e07e5978d23
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\54\54cac291aae386a39d349fe3f264f461
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\54\54cac291aae386a39d349fe3f264f461
+    projectPath: Library\Artifacts\54\54cac291aae386a39d349fe3f264f461
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\56\563aaafece10d35e0fa2ec606e7f58ef
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\56\563aaafece10d35e0fa2ec606e7f58ef
+    projectPath: Library\Artifacts\56\563aaafece10d35e0fa2ec606e7f58ef
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\59\59f2f6765c891ab31b0e075ec0adfe51
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\59\59f2f6765c891ab31b0e075ec0adfe51
+    projectPath: Library\Artifacts\59\59f2f6765c891ab31b0e075ec0adfe51
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\5a\5a66293381c3ad4255d0d664afdb5449
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\5a\5a66293381c3ad4255d0d664afdb5449
+    projectPath: Library\Artifacts\5a\5a66293381c3ad4255d0d664afdb5449
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\60\60853a77ebace2276b3b13b74573f4c0
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\60\60853a77ebace2276b3b13b74573f4c0
+    projectPath: Library\Artifacts\60\60853a77ebace2276b3b13b74573f4c0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\65\65f841eba6f6924217b16812d699517a
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\65\65f841eba6f6924217b16812d699517a
+    projectPath: Library\Artifacts\65\65f841eba6f6924217b16812d699517a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\68\68627ac2d49e25ecba974021badf57f5
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\68\68627ac2d49e25ecba974021badf57f5
+    projectPath: Library\Artifacts\68\68627ac2d49e25ecba974021badf57f5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\6a\6a4d2253ac96da4ae21641e24c039282
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\6a\6a4d2253ac96da4ae21641e24c039282
+    projectPath: Library\Artifacts\6a\6a4d2253ac96da4ae21641e24c039282
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\6e\6e26e227bd323d172b875c8f9664a658
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\6e\6e26e227bd323d172b875c8f9664a658
+    projectPath: Library\Artifacts\6e\6e26e227bd323d172b875c8f9664a658
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\73\7301384cfc16aebedcd61c85d541b179
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\73\7301384cfc16aebedcd61c85d541b179
+    projectPath: Library\Artifacts\73\7301384cfc16aebedcd61c85d541b179
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\74\741e740966117d0c5377c1bdef1da690
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\74\741e740966117d0c5377c1bdef1da690
+    projectPath: Library\Artifacts\74\741e740966117d0c5377c1bdef1da690
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\76\76970f1b77dd4af8f5f5358b7d86fcc1
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\76\76970f1b77dd4af8f5f5358b7d86fcc1
+    projectPath: Library\Artifacts\76\76970f1b77dd4af8f5f5358b7d86fcc1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\80\80093da58582195f76d85ca058141436
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\80\80093da58582195f76d85ca058141436
+    projectPath: Library\Artifacts\80\80093da58582195f76d85ca058141436
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\82\82d320b00ec909f82dda44cc8900ee45
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\82\82d320b00ec909f82dda44cc8900ee45
+    projectPath: Library\Artifacts\82\82d320b00ec909f82dda44cc8900ee45
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\87\87cf5e4f78f6ec1b44385cb02112034f
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\87\87cf5e4f78f6ec1b44385cb02112034f
+    projectPath: Library\Artifacts\87\87cf5e4f78f6ec1b44385cb02112034f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\8a\8aae90c080332b8777aa90b27419d717
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\8a\8aae90c080332b8777aa90b27419d717
+    projectPath: Library\Artifacts\8a\8aae90c080332b8777aa90b27419d717
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\8e\8ed5cfe1a2dd1c81a042347e681b8df6
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\8e\8ed5cfe1a2dd1c81a042347e681b8df6
+    projectPath: Library\Artifacts\8e\8ed5cfe1a2dd1c81a042347e681b8df6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\90\904517d69e913d4490667fcef88184a2
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\90\904517d69e913d4490667fcef88184a2
+    projectPath: Library\Artifacts\90\904517d69e913d4490667fcef88184a2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\95\952ea97268a62e5d943f6b302297e2b2
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\95\952ea97268a62e5d943f6b302297e2b2
+    projectPath: Library\Artifacts\95\952ea97268a62e5d943f6b302297e2b2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\98\987f9bfea6b00b98cdc1fc2a629cd335
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\98\987f9bfea6b00b98cdc1fc2a629cd335
+    projectPath: Library\Artifacts\98\987f9bfea6b00b98cdc1fc2a629cd335
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\9d\9d10a1e8faab769b477a085ee90f71c0
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\9d\9d10a1e8faab769b477a085ee90f71c0
+    projectPath: Library\Artifacts\9d\9d10a1e8faab769b477a085ee90f71c0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\9f\9f0dfc23fc55c361799b34f377263ca7
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\9f\9f0dfc23fc55c361799b34f377263ca7
+    projectPath: Library\Artifacts\9f\9f0dfc23fc55c361799b34f377263ca7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\aa\aad062e1d0ea50f5e00111a13b136e8b
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\aa\aad062e1d0ea50f5e00111a13b136e8b
+    projectPath: Library\Artifacts\aa\aad062e1d0ea50f5e00111a13b136e8b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\aa\aaf6f07e5ed15dda368c8daae17d129c
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\aa\aaf6f07e5ed15dda368c8daae17d129c
+    projectPath: Library\Artifacts\aa\aaf6f07e5ed15dda368c8daae17d129c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\ab\ab3c8407e8171c4006d4956785ee2f4f
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\ab\ab3c8407e8171c4006d4956785ee2f4f
+    projectPath: Library\Artifacts\ab\ab3c8407e8171c4006d4956785ee2f4f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\b0\b0bbc44e929460633d53871e0227d3e1
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\b0\b0bbc44e929460633d53871e0227d3e1
+    projectPath: Library\Artifacts\b0\b0bbc44e929460633d53871e0227d3e1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\b3\b3c4dba8709d1d4cad67146f26db3027
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\b3\b3c4dba8709d1d4cad67146f26db3027
+    projectPath: Library\Artifacts\b3\b3c4dba8709d1d4cad67146f26db3027
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\b9\b98443070a7b0bf35a2f3097f70e3cae
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\b9\b98443070a7b0bf35a2f3097f70e3cae
+    projectPath: Library\Artifacts\b9\b98443070a7b0bf35a2f3097f70e3cae
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\bf\bf198f11b0cb6f47f987bf540028db7e
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\bf\bf198f11b0cb6f47f987bf540028db7e
+    projectPath: Library\Artifacts\bf\bf198f11b0cb6f47f987bf540028db7e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\bf\bf7537f2af3480a369f5562e487d91eb
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\bf\bf7537f2af3480a369f5562e487d91eb
+    projectPath: Library\Artifacts\bf\bf7537f2af3480a369f5562e487d91eb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\c1\c1cf948d2e914d7b1e88c783ced1d4e4
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\c1\c1cf948d2e914d7b1e88c783ced1d4e4
+    projectPath: Library\Artifacts\c1\c1cf948d2e914d7b1e88c783ced1d4e4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\c3\c3ee7e81b28649efdfe0cdb576c54ec1
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\c3\c3ee7e81b28649efdfe0cdb576c54ec1
+    projectPath: Library\Artifacts\c3\c3ee7e81b28649efdfe0cdb576c54ec1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\c4\c4e77de36f771e0b51fd005c914db477
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\c4\c4e77de36f771e0b51fd005c914db477
+    projectPath: Library\Artifacts\c4\c4e77de36f771e0b51fd005c914db477
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\c4\c4e86da981c41410a17f27310ef1eefc
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\c4\c4e86da981c41410a17f27310ef1eefc
+    projectPath: Library\Artifacts\c4\c4e86da981c41410a17f27310ef1eefc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\c6\c6d3cc4fba628cb3d7e7a1d77d7eed66
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\c6\c6d3cc4fba628cb3d7e7a1d77d7eed66
+    projectPath: Library\Artifacts\c6\c6d3cc4fba628cb3d7e7a1d77d7eed66
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\cb\cbb303eae6d61735857e3a515bb9e973
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\cb\cbb303eae6d61735857e3a515bb9e973
+    projectPath: Library\Artifacts\cb\cbb303eae6d61735857e3a515bb9e973
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\cc\ccad1f60bddaee393b3750ee7eb8d376
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\cc\ccad1f60bddaee393b3750ee7eb8d376
+    projectPath: Library\Artifacts\cc\ccad1f60bddaee393b3750ee7eb8d376
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\d2\d2249b0c7e197332dee91b586b716e10
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\d2\d2249b0c7e197332dee91b586b716e10
+    projectPath: Library\Artifacts\d2\d2249b0c7e197332dee91b586b716e10
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\d3\d3c7a085c6ce96f406a427d2b34cb732
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\d3\d3c7a085c6ce96f406a427d2b34cb732
+    projectPath: Library\Artifacts\d3\d3c7a085c6ce96f406a427d2b34cb732
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\d3\d3cb931fb82b37aa26f904757cea652d
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\d3\d3cb931fb82b37aa26f904757cea652d
+    projectPath: Library\Artifacts\d3\d3cb931fb82b37aa26f904757cea652d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\e0\e06431f11b1994b83440324732213202
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\e0\e06431f11b1994b83440324732213202
+    projectPath: Library\Artifacts\e0\e06431f11b1994b83440324732213202
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\e0\e094a54b7b6f3c18431e2fa82e0658ec
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\e0\e094a54b7b6f3c18431e2fa82e0658ec
+    projectPath: Library\Artifacts\e0\e094a54b7b6f3c18431e2fa82e0658ec
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\e6\e6726f2131af5e120cbf82495f2cf084
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\e6\e6726f2131af5e120cbf82495f2cf084
+    projectPath: Library\Artifacts\e6\e6726f2131af5e120cbf82495f2cf084
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\ee\ee410387eaecd3a22a42e93a0cfb47df
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\ee\ee410387eaecd3a22a42e93a0cfb47df
+    projectPath: Library\Artifacts\ee\ee410387eaecd3a22a42e93a0cfb47df
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\f1\f104cdd9d09aa913492174920078b263
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\f1\f104cdd9d09aa913492174920078b263
+    projectPath: Library\Artifacts\f1\f104cdd9d09aa913492174920078b263
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\f2\f22e712dd9d87d8c1c11629543d14b25
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\f2\f22e712dd9d87d8c1c11629543d14b25
+    projectPath: Library\Artifacts\f2\f22e712dd9d87d8c1c11629543d14b25
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\f6\f6c0e64af7bf0af3337350be6d81aba9
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\f6\f6c0e64af7bf0af3337350be6d81aba9
+    projectPath: Library\Artifacts\f6\f6c0e64af7bf0af3337350be6d81aba9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\f7\f7f7e95e52e1404384604e1b8a3deb9b
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\f7\f7f7e95e52e1404384604e1b8a3deb9b
+    projectPath: Library\Artifacts\f7\f7f7e95e52e1404384604e1b8a3deb9b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\f8\f8a78b89c9d1bea6a258ce69fdcedba8
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\f8\f8a78b89c9d1bea6a258ce69fdcedba8
+    projectPath: Library\Artifacts\f8\f8a78b89c9d1bea6a258ce69fdcedba8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\fc\fc2877981eb5db28f557d5d51e4f512e
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\fc\fc2877981eb5db28f557d5d51e4f512e
+    projectPath: Library\Artifacts\fc\fc2877981eb5db28f557d5d51e4f512e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\fc\fcbb84ac8389082fc560317695e6d101
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\fc\fcbb84ac8389082fc560317695e6d101
+    projectPath: Library\Artifacts\fc\fcbb84ac8389082fc560317695e6d101
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\fe\fe6a447f31764e8f55458f9004b13abb
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\fe\fe6a447f31764e8f55458f9004b13abb
+    projectPath: Library\Artifacts\fe\fe6a447f31764e8f55458f9004b13abb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Library\Artifacts\ff\ffccff73549b19a69b44a5c095480f4b
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Artifacts\ff\ffccff73549b19a69b44a5c095480f4b
+    projectPath: Library\Artifacts\ff\ffccff73549b19a69b44a5c095480f4b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Space Shooter 2.5D\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.dll
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.dll
     projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.dll
@@ -277,12 +613,6 @@ MonoBehaviour:
   - path: Space Shooter 2.5D\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.ref.dll
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.ref.dll
     projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.ref.dll
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Space Shooter 2.5D\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.rsp
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.rsp
-    projectPath: Library\Bee\artifacts\1900b0aE.dag\Assembly-CSharp.rsp
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -307,18 +637,6 @@ MonoBehaviour:
   - path: Space Shooter 2.5D\Library\Bee\backend1.traceevents
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Bee\backend1.traceevents
     projectPath: Library\Bee\backend1.traceevents
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Space Shooter 2.5D\Library\Bee\backend2.traceevents
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Bee\backend2.traceevents
-    projectPath: Library\Bee\backend2.traceevents
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Space Shooter 2.5D\Library\Bee\buildprogram0.traceevents
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\Bee\buildprogram0.traceevents
-    projectPath: Library\Bee\buildprogram0.traceevents
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -352,12 +670,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Space Shooter 2.5D\Library\BuildSettings.asset
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\BuildSettings.asset
-    projectPath: Library\BuildSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Space Shooter 2.5D\Library\BurstCache\JIT\Hashes\a110ffe6b760e4b56cb86ae44bc7857d.bhc
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\BurstCache\JIT\Hashes\a110ffe6b760e4b56cb86ae44bc7857d.bhc
     projectPath: Library\BurstCache\JIT\Hashes\a110ffe6b760e4b56cb86ae44bc7857d.bhc
@@ -376,12 +688,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Library\expandedItems
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\expandedItems
-    projectPath: Library\expandedItems
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Space Shooter 2.5D\Library\gfu\cache\branches.yaml
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
@@ -427,12 +733,6 @@ MonoBehaviour:
   - path: Space Shooter 2.5D\Library\InspectorExpandedItems.asset
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\InspectorExpandedItems.asset
     projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Space Shooter 2.5D\Library\LastSceneManagerSetup.txt
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\LastSceneManagerSetup.txt
-    projectPath: Library\LastSceneManagerSetup.txt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -490,45 +790,15 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Space Shooter 2.5D\Library\StateCache\PrefabStageHierarchy\d1\d1f3be322df9887fb316712ea57a7031.json
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\StateCache\PrefabStageHierarchy\d1\d1f3be322df9887fb316712ea57a7031.json
-    projectPath: Library\StateCache\PrefabStageHierarchy\d1\d1f3be322df9887fb316712ea57a7031.json
+  - path: Space Shooter 2.5D\Library\StateCache\PrefabStageHierarchy\0b\0bcacd7c666e67de82e8423260c66e6a.json
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\StateCache\PrefabStageHierarchy\0b\0bcacd7c666e67de82e8423260c66e6a.json
+    projectPath: Library\StateCache\PrefabStageHierarchy\0b\0bcacd7c666e67de82e8423260c66e6a.json
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Space Shooter 2.5D\Library\StateCache\PrefabStageHierarchy\fa\fa1c934dd7f906bf8c48c42d4b4d188d.json
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\StateCache\PrefabStageHierarchy\fa\fa1c934dd7f906bf8c48c42d4b4d188d.json
-    projectPath: Library\StateCache\PrefabStageHierarchy\fa\fa1c934dd7f906bf8c48c42d4b4d188d.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Space Shooter 2.5D\Library\StateCache\SceneView\10\1032d6e8982355954196ed5b27e06c84.json
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\StateCache\SceneView\10\1032d6e8982355954196ed5b27e06c84.json
-    projectPath: Library\StateCache\SceneView\10\1032d6e8982355954196ed5b27e06c84.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Space Shooter 2.5D\Library\StateCache\SceneView\76\7601cdae190bb583c2bb8f64cfe95cef.json
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\StateCache\SceneView\76\7601cdae190bb583c2bb8f64cfe95cef.json
     projectPath: Library\StateCache\SceneView\76\7601cdae190bb583c2bb8f64cfe95cef.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Space Shooter 2.5D\Library\StateCache\SceneView\be\be3f36ae411b7508e27df080d16b6b69.json
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\StateCache\SceneView\be\be3f36ae411b7508e27df080d16b6b69.json
-    projectPath: Library\StateCache\SceneView\be\be3f36ae411b7508e27df080d16b6b69.json
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Space Shooter 2.5D\Library\UIElements\EditorWindows\UnityEditor.Build.Profile.BuildProfileWindow.pref
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\UIElements\EditorWindows\UnityEditor.Build.Profile.BuildProfileWindow.pref
-    projectPath: Library\UIElements\EditorWindows\UnityEditor.Build.Profile.BuildProfileWindow.pref
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Space Shooter 2.5D\Library\UIElements\EditorWindows\UnityEditor.InspectorWindow.pref
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Library\UIElements\EditorWindows\UnityEditor.InspectorWindow.pref
-    projectPath: Library\UIElements\EditorWindows\UnityEditor.InspectorWindow.pref
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -544,33 +814,39 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Space Shooter 2.5D\ProjectSettings\EditorBuildSettings.asset
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\ProjectSettings\EditorBuildSettings.asset
-    projectPath: ProjectSettings\EditorBuildSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Space Shooter 2.5D\Temp\__Backupscenes\0.backup
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Temp\__Backupscenes\0.backup
     projectPath: Temp\__Backupscenes\0.backup
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Temp\FSTimeGet-0befcde753618e548b34f022fd6dd263
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Temp\FSTimeGet-0befcde753618e548b34f022fd6dd263
-    projectPath: Temp\FSTimeGet-0befcde753618e548b34f022fd6dd263
+  - path: Space Shooter 2.5D\Temp\FSTimeGet-7200852ba092e7344bda69ca2c83883c
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Temp\FSTimeGet-7200852ba092e7344bda69ca2c83883c
+    projectPath: Temp\FSTimeGet-7200852ba092e7344bda69ca2c83883c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Temp\FSTimeGet-7bc9933f2419413488c088742ce50b16
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Temp\FSTimeGet-7bc9933f2419413488c088742ce50b16
-    projectPath: Temp\FSTimeGet-7bc9933f2419413488c088742ce50b16
+  - path: Space Shooter 2.5D\Temp\FSTimeGet-7c8a90cc6d817e4428dda71cf6aac4f7
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Temp\FSTimeGet-7c8a90cc6d817e4428dda71cf6aac4f7
+    projectPath: Temp\FSTimeGet-7c8a90cc6d817e4428dda71cf6aac4f7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\Temp\FSTimeGet-ce5b0fb5fc5fc2149a54cdda6ef7c241
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Temp\FSTimeGet-ce5b0fb5fc5fc2149a54cdda6ef7c241
-    projectPath: Temp\FSTimeGet-ce5b0fb5fc5fc2149a54cdda6ef7c241
+  - path: Space Shooter 2.5D\Temp\FSTimeGet-c1ba9519c23d80547a63f6a87c05e551
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Temp\FSTimeGet-c1ba9519c23d80547a63f6a87c05e551
+    projectPath: Temp\FSTimeGet-c1ba9519c23d80547a63f6a87c05e551
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Temp\FSTimeGet-d18eb56ed7abe7e49a7f6e071e565bfe
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Temp\FSTimeGet-d18eb56ed7abe7e49a7f6e071e565bfe
+    projectPath: Temp\FSTimeGet-d18eb56ed7abe7e49a7f6e071e565bfe
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Space Shooter 2.5D\Temp\FSTimeGet-d9cf8deaca8e9954a9aa47294b912031
+    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\Temp\FSTimeGet-d9cf8deaca8e9954a9aa47294b912031
+    projectPath: Temp\FSTimeGet-d9cf8deaca8e9954a9aa47294b912031
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -586,12 +862,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Space Shooter 2.5D\UserSettings\EditorUserSettings.asset
-    fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\UserSettings\EditorUserSettings.asset
-    projectPath: UserSettings\EditorUserSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Space Shooter 2.5D\UserSettings\Layouts\default-6000.dwlt
     fullPath: C:\Users\AnilD\Documents\Space-Shooter-2.5D\Space Shooter 2.5D\UserSettings\Layouts\default-6000.dwlt
     projectPath: UserSettings\Layouts\default-6000.dwlt

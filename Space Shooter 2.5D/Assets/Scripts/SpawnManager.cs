@@ -20,6 +20,7 @@ public class SpawnManager : MonoBehaviour
     public bool startSpawn;
     float startTime;
 
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -41,8 +42,6 @@ public class SpawnManager : MonoBehaviour
     {
         if (startSpawn)
         {
-            
-            
                 StartCoroutine(EnemySpawnRoutine());
                 StartCoroutine(TSPowerUpSpawnRoutine());
                 StartCoroutine(SpeedPowerUpSpawnRoutine());
@@ -53,6 +52,7 @@ public class SpawnManager : MonoBehaviour
         }
         IEnumerator EnemySpawnRoutine()
         {
+            yield return new WaitForSeconds(3f); // Initial delay before starting the spawn
             bool spawn = true;
             while (spawn)
             {
@@ -71,6 +71,7 @@ public class SpawnManager : MonoBehaviour
         }
         IEnumerator TSPowerUpSpawnRoutine()
         {
+            yield return new WaitForSeconds(3f);
             bool spawn = true;
             while (spawn)
             {
@@ -90,6 +91,7 @@ public class SpawnManager : MonoBehaviour
         }
         IEnumerator SpeedPowerUpSpawnRoutine()
         {
+            yield return new WaitForSeconds(3f);
             bool spawn = true;
             while (spawn)
             {
@@ -109,6 +111,7 @@ public class SpawnManager : MonoBehaviour
         }
         IEnumerator ShieldPowerUpSpawnRoutine()
         {
+            yield return new WaitForSeconds(3f);
             bool spawn = true;
             while (spawn)
             {

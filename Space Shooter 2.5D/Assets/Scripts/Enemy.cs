@@ -75,7 +75,7 @@ public class Enemy : MonoBehaviour
                 Destroy(gameObject, 2.4f); // Destroy the enemy
                 player._score += 10; // Increase score
                 player.ShieldActive = false; // Deactivate shield
-                Destroy(GameObject.FindGameObjectWithTag("Shield"));
+                player.Shield.SetActive(false);
                 
             }
             
